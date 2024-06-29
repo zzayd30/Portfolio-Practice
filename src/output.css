@@ -2317,6 +2317,10 @@ html {
   width: 100%;
 }
 
+.w-\[145px\] {
+  width: 145px;
+}
+
 .max-w-lg {
   max-width: 32rem;
 }
