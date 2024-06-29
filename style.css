@@ -1,0 +1,48 @@
+@keyframes move-to-and-fro {
+
+    20%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+@keyframes moveBall {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: calc(100%);
+    }
+}
+
+.animate-move-to-and-fro {
+    animation: move-to-and-fro 2s infinite;
+}
+
+.hidden-navbar {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.visible-navbar {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+.translucent-bg {
+    background-color: rgba(20, 29, 46, 0.9);
+}
+
+.ball {
+    transform: translateY(-70%);
+    animation: moveBall 3s ease-in-out infinite;
+}
+
+.colored-list li::marker {
+    color: #72e2ae;
+}

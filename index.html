@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaid</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init("udq9XLuX-kA06VzUz");
+        })();
+    </script>
+</head>
+
+<body class="text-white m-0 p-0">
+    <nav>
+        <div id="navbar" class="navbar bg-[#141d2e] text-white visible-navbar translucent-bg fixed top-0 z-10">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a>Item 1</a></li>
+                        <li>
+                            <a>Parent</a>
+                            <ul class="p-2">
+                                <li><a>Submenu 1</a></li>
+                                <li><a>Submenu 2</a></li>
+                            </ul>
+                        </li>
+                        <li><a>Item 3</a></li>
+                    </ul>
+                </div>
+                <a id="Zaid-btnn"
+                    class="btn btn-ghost hover:text-[#141d2e] hover:bg-white text-3xl bg-[#141d2e] text-[#72e2ae] transform active:scale-90 transition-transform">Zaid.</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a id="Home"
+                            class="btn btn-ghost text-l hover:text-[#141d2e] hover:bg-[#72e2ae] bg-[#141d2e] transform active:scale-90 transition-transform">Home</a>
+                    </li>
+                    <li><a id="About"
+                            class="btn btn-ghost text-l hover:text-[#141d2e] hover:bg-[#72e2ae] bg-[#141d2e] transform active:scale-90 transition-transform">About</a>
+                    </li>
+                    <li><a id="Skills"
+                            class="btn btn-ghost text-l hover:text-[#141d2e] hover:bg-[#72e2ae] bg-[#141d2e] transform active:scale-90 transition-transform">Skills</a>
+                    </li>
+                    <li><a id="Resume"
+                            class="btn btn-ghost text-l hover:text-[#141d2e] hover:bg-[#72e2ae] bg-[#141d2e] transform active:scale-90 transition-transform">Resume</a>
+                    </li>
+                    <li><a id="Contact"
+                            class="btn btn-ghost text-l hover:text-[#141d2e] hover:bg-[#72e2ae] bg-[#141d2e] ">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a id="Hire"
+                    class="btn btn-ghost bg-[#72e2ae] hover:bg-white text-l text-[#141d2e] transform active:scale-90 transition-transform curtain-btn hover:text-[#141d2e]">Hire
+                    Me</a>
+            </div>
+        </div>
+    </nav>
+    <div id="Home-page" class="page-1 bg-[#141d2e] text-white w-[100%] h-[590px] pt-[84px]">
+        <div class="img flex justify-center">
+            <img src="images/my_pic.jpg" alt="Profile Picture" class="w-[200px] h-[200px] rounded-[50%]">
+            <!-- picture k uper alehda se rotating border lgana ha -->
+        </div>
+        <div class="heading mt-[5px] flex justify-center font-bold">
+            <span class="text-[45px]">Hi, I am </span>
+            <div id="element" class="text-[45px] text-[#72e2ae]">
+            </div>
+        </div>
+        <div class="para flex justify-center">
+            <p class="text-xl text-[#bfc1ce] pt-[5px] w-[75%]">I am a dedicated and proficient Computer Scientist, with
+                a passion for delivering innovative solutions that drive business growth and enhance user experience.
+                Adept at working in fast-paced environments, leading projects from conception to deployment, and
+                ensuring seamless integration of varied services.</p>
+        </div>
+        <div class="links flex justify-center mt-[20px]">
+            <div id="Git"
+                class="git mx-[15px] p-[12px] border border-[#30394a] rounded-md hover:bg-[#72e2ae] hover:border-[#72e2ae] hover:delay-100 transform active:scale-90 transition-transform">
+                <img class="w-[20px] hover:text-black" src="images/github.svg" alt="Github">
+            </div>
+            <div id="Linkedin"
+                class="linkedin mx-[15px] border p-[10px] border-[#30394a] rounded-md hover:bg-[#72e2ae] hover:border-[#72e2ae] hover:delay-100 transform active:scale-90 transition-transform">
+                <img class="w-[25px]" src="images/linkedin.svg" alt="LinkedIn">
+            </div>
+        </div>
+        <div id="Scroll"
+            class="scroll flex justify-center items-center pt-[20px] text-[#aeafba] transform active:scale-90 transition-transform">
+            <div class="wid flex justify-center items-center hover:text-[#72e2ae] w-[151px]">
+                <div class="arrow text-xl font-bold p-1 animate-move-to-and-fro">
+                    <img class="w-[30px]" src="images/down_arrow.svg" alt="Down Arrow">
+                </div>
+                <div class="text text-xl font-bold">
+                    <span>Scroll Down</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page 1 complete -->
+    <div id="About-page" class="page-2 bg-[#182032] w-[100%] h-[730px]">
+        <div class="under">
+            <span
+                class="text-[#222a3b] font-semibold text-[150px] flex justify-center relative z-1 top-[45px]">ABOUT</span>
+        </div>
+        <div class="heading">
+            <span class="text-white font-semibold text-[50px] flex justify-center relative z-2 bottom-[130px]">ABOUT
+                ME</span>
+        </div>
+        <div class="ani-bar bg-[#375548] h-[7px] w-[10%] rounded-md mt-[-110px] ml-[565px] relative overflow-hidden">
+            <div class="ball w-1.5 h-5 bg-[#72e2ae] absolute top-1/2 left-0"></div>
+        </div>
+        <div class="about flex">
+            <div class="pic ml-9 mt-[50px]">
+                <img src="images/Z.jpg" alt="Profile Picture"
+                    class="w-[70%] h-[400px] border-[10px] border-[#375548]">
+            </div>
+            <div class="info mt-[50px] ml-[-170px]">
+                <div class="main-text"><span class="text-3xl font-bold">Hi, I am</span><span
+                        class="text-3xl font-bold text-[#72e2ae]">&nbsp;Muhammad Zaid Latif</span></div>
+                <div class="info-me mt-4">
+                    <ul class="list-inside list-disc text-lg text-[#bfc1ce] colored-list space-y-4">
+                        <li><span class="font-semibold">First Name:</span> Muhammad Zaid</li>
+                        <li><span class="font-semibold">Last Name:</span> Latif</li>
+                        <li><span class="font-semibold">Age:</span> 20 years</li>
+                        <li><span class="font-semibold">Nationality:</span> Pakistani</li>
+                        <li><span class="font-semibold">Languages:</span> English, Urdu, Hindi</li>
+                        <li><span class="font-semibold">Address:</span> Lahore, Pakistan</li>
+                        <li><span class="font-semibold">Freelance:</span> Available</li>
+                    </ul>
+                </div>
+                <button id="Download-Resume"
+                    class="mt-6 px-4 py-2 bg-[#72e2ae] text-gray-900 font-semibold rounded-lg hover:bg-white transform active:scale-90 transition-transform">DOWNLOAD
+                    RESUME</button>
+                    <a id="hiddenCvDownloadLink" href="file:///D:/University/Semester%203/TWPS/Muhammad_Zaid_Latif_CV.pdf" download="Muhammad_Zaid_Latif_CV.pdf" class="hidden"></a>
+            </div>
+        </div>
+    </div>
+    <!-- Page 2 Complete -->
+    <div id="Skills-page" class="page-3 bg-[#182032] w-[100%] h-[1200px]">
+        <div class="under">
+            <span
+                class="text-[#222a3b] font-semibold text-[150px] flex justify-center relative z-1 top-[45px]">SKILLS</span>
+        </div>
+        <div class="heading">
+            <span class="text-white font-semibold text-[50px] flex justify-center relative z-2 bottom-[132px]">MY
+                SKILLS</span>
+        </div>
+        <div class="ani-bar bg-[#375548] h-[7px] w-[10%] rounded-md mt-[-110px] ml-[565px] relative overflow-hidden">
+            <div class="ball w-1.5 h-5 bg-[#72e2ae] absolute top-1/2 left-0"></div>
+        </div>
+        <div class="skills flex mt-11">
+            <div class="box1 w-[19%] h-[200px] border mx-3 border-[#30394a] rounded-md pl-[55px]">
+                <div class="radial-progress text-[#72e2ae] mt-7" style="--value:95; --size:7rem;" role="progressbar">
+                    <span class="text-xl text-[#bfc1ce] font-semibold">95%</span>
+                </div>
+                <div class="text font-semibold mt-4 ml-[-25px]">
+                    <span>Front-End Development</span>
+                </div>
+            </div>
+            <div class="box2 w-[19%] h-[200px] border mx-3 border-[#30394a] rounded-md pl-[55px]">
+                <div class="radial-progress text-[#72e2ae] mt-7" style="--value:75; --size:7rem;" role="progressbar">
+                    <span class="text-xl text-[#bfc1ce] font-semibold">75%</span>
+                </div>
+                <div class="text font-semibold mt-4 ml-[-25px]">
+                    <span>Back-End Development</span>
+                </div>
+            </div>
+            <div class="box3 w-[19%] h-[200px] border mx-3 border-[#30394a] rounded-md pl-[55px]">
+                <div class="radial-progress text-[#72e2ae] mt-7" style="--value:55; --size:7rem;" role="progressbar">
+                    <span class="text-xl text-[#bfc1ce] font-semibold">55%</span>
+                </div>
+                <div class="text font-semibold mt-4 ml-[-30px]">
+                    <span>Mobile App Development</span>
+                </div>
+            </div>
+            <div class="box4 w-[19%] h-[200px] border mx-3 border-[#30394a] rounded-md pl-[55px]">
+                <div class="radial-progress text-[#72e2ae] mt-7" style="--value:65; --size:7rem;" role="progressbar">
+                    <span class="text-xl text-[#bfc1ce] font-semibold">65%</span>
+                </div>
+                <div class="text font-semibold mt-4 ml-[28px]">
+                    <span>DevOps</span>
+                </div>
+            </div>
+            <div class="box5 w-[19%] h-[200px] border mx-3 border-[#30394a] rounded-md pl-[55px]">
+                <div class="radial-progress text-[#72e2ae] mt-7" style="--value:100; --size:7rem;" role="progressbar">
+                    <span class="text-xl text-[#bfc1ce] font-semibold">100%</span>
+                </div>
+                <div class="text font-semibold mt-4 ml-[10px]">
+                    <span>Programming</span>
+                </div>
+            </div>
+        </div>
+        <div class="skill-level">
+            <div class="1 flex justify-center items-center">
+                <div class="t1 w-1/2 ml-5 mt-11">
+                    <span class="font-bold text-xl">HTML</span>
+                    <div class="bar w-[95%] h-3 bg-[#72e2ae] rounded-md mt-3"></div>
+                </div>
+                <div class="t2 w-1/2 ml-5 mt-11">
+                    <span class="font-bold text-xl">CSS</span>
+                    <div class="bar w-[95%] h-3 bg-[#72e2ae] rounded-md mt-3"></div>
+                </div>
+            </div>
+            <div class="2 flex justify-center items-center">
+                <div class="t1 w-1/2 ml-5 mt-11">
+                    <span class="font-bold text-xl">Tailwind CSS</span>
+                    <div class="bar w-[95%] h-3 bg-[#72e2ae] rounded-md mt-3"></div>
+                </div>
+                <div class="t2 w-1/2 ml-5 mt-11">
+                    <span class="font-bold text-xl">JavaScript</span>
+                    <div class="bar w-[95%] h-3 bg-[#72e2ae] rounded-md mt-3"></div>
+                </div>
+            </div>
+            <div class="3 flex justify-center items-center">
+                <div class="t1 w-1/2 ml-5 mt-11">
+                    <span class="font-bold text-xl">Express JS</span>
+                    <div class="bar w-[95%] h-3 bg-[#72e2ae] rounded-md mt-3"></div>
+                </div>
+                <div class="t2 w-1/2 ml-5 mt-11">
+                    <span class="font-bold text-xl">Node JS</span>
+                    <div class="bar w-[95%] h-3 bg-[#72e2ae] rounded-md mt-3"></div>
+                </div>
+            </div>
+            <div class="4 flex justify-center items-center">
+                <div class="t1 w-1/2 ml-5 mt-11">
+                    <span class="font-bold text-xl">MongoDB</span>
+                    <div class="bar w-[95%] h-3 bg-[#72e2ae] rounded-md mt-3"></div>
+                </div>
+                <div class="t2 w-1/2 ml-5 mt-11">
+                    <span class="font-bold text-xl">MySQL</span>
+                    <div class="bar w-[95%] h-3 bg-[#72e2ae] rounded-md mt-3"></div>
+                </div>
+            </div>
+            <div class="5 flex justify-center items-center">
+                <div class="t1 w-1/2 ml-5 mt-11">
+                    <span class="font-bold text-xl">Python</span>
+                    <div class="bar w-[95%] h-3 bg-[#72e2ae] rounded-md mt-3"></div>
+                </div>
+                <div class="t2 w-1/2 ml-5 mt-11">
+                    <span class="font-bold text-xl">C</span>
+                    <div class="bar w-[95%] h-3 bg-[#72e2ae] rounded-md mt-3"></div>
+                </div>
+            </div>
+            <div class="5 flex justify-center items-center">
+                <div class="t1 w-1/2 ml-5 mt-11">
+                    <span class="font-bold text-xl">C++</span>
+                    <div class="bar w-[95%] h-3 bg-[#72e2ae] rounded-md mt-3"></div>
+                </div>
+                <div class="t2 w-1/2 ml-5 mt-11">
+                    <span class="font-bold text-xl">Assembly</span>
+                    <div class="bar w-[95%] h-3 bg-[#72e2ae] rounded-md mt-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page 3 Complete -->
+    <div id="Resume-page" class="page-4 bg-[#182032] w-[100%] h-[550px]">
+        <div class="under">
+            <span
+                class="text-[#222a3b] font-semibold text-[150px] flex justify-center relative z-1 -top-[100px]">RESUME</span>
+        </div>
+        <div class="heading">
+            <span class="text-white font-semibold text-[50px] flex justify-center relative z-2 bottom-[277px]">MY
+                RESUME</span>
+        </div>
+        <div class="ani-bar bg-[#375548] h-[7px] w-[10%] rounded-md mt-[-260px] ml-[565px] relative overflow-hidden">
+            <div class="ball w-1.5 h-5 bg-[#72e2ae] absolute top-1/2 left-0"></div>
+        </div>
+        <div class="title flex justify-center mt-10">
+            <div class="img">
+                <img src="images/book.svg" alt="Book svg" class="w-7">
+            </div>
+            <span class="text-2xl font-bold">&nbsp;&nbsp;Educational Qualification</span>
+        </div>
+        <div class="edu-info mt-10">
+            <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+                <li>
+                    <div class="timeline-middle">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5">
+                            <path fill-rule="evenodd"
+                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <div class="timeline-start mb-10 md:text-end">
+                        <time class="font-mono italic">Present</time>
+                        <div class="text-lg text-[#72e2ae] font-bold">Bachelor in Computer Science</div>
+                        University of Engineering and Technoology, Lahore
+                    </div>
+                    <hr />
+                </li>
+                <li>
+                    <hr />
+                    <div class="timeline-middle">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5">
+                            <path fill-rule="evenodd"
+                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <div class="timeline-end mb-10">
+                        <time class="font-mono italic">2022</time>
+                        <div class="text-lg text-[#72e2ae] font-bold">Intermediate in Computer Science</div>
+                        Government Islamia College Civil Lines, Lahore
+                    </div>
+                    <hr />
+                </li>
+                <li>
+                    <hr />
+                    <div class="timeline-middle">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5">
+                            <path fill-rule="evenodd"
+                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <div class="timeline-start mb-10 md:text-end">
+                        <time class="font-mono italic">2020</time>
+                        <div class="text-lg text-[#72e2ae] font-bold">Matriculation</div>
+                        LaurelBank Public School System, Lahore
+                    </div>
+                    <hr />
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Page 4 Completed -->
+    <div id="Contact-page" class="page-5 bg-[#182032] w-[100%] h-[900px]">
+        <div class="under">
+            <span class="text-[#222a3b] font-semibold text-[150px] flex justify-center relative z-1 ">CONTACT</span>
+        </div>
+        <div class="heading">
+            <span class="text-white font-semibold text-[50px] flex justify-center relative z-2 top-[-177px]">CONTACT
+                ME</span>
+        </div>
+        <div class="ani-bar bg-[#375548] h-[7px] w-[10%] rounded-md mt-[-160px] ml-[565px] relative overflow-hidden">
+            <div class="ball w-1.5 h-5 bg-[#72e2ae] absolute top-1/2 left-0"></div>
+        </div>
+        <div class="cont flex mt-10">
+            <div class="left w-1/2 mx-7 h-[500px]">
+                <div class="box1 w-[90%] h-[100px] m-auto py-5"><span class="text-2xl font-bold text-white">Contact
+                        Information</span></div>
+                <div class="box2 border border-[#30394a] rounded-md bg-[#1c2436] w-[90%] h-[130px] m-auto mb-9">
+                    <div
+                        class="border border-none bg-[#263843] h-[75px] w-[75px] flex flex-row justify-center items-center rounded-[50%] m-[25px]">
+                        <img src="images/phone.svg" alt="Phone" class="w-7">
+                    </div>
+                    <div class="text">
+                        <p class="text-white text-xl font-semibold my-7 relative top-[-115px] left-[140px]">Contact on
+                            Phone</p>
+                        <p
+                            class="text-[#bfc1ce] text-lg mt-[-10px] relative top-[-125px] left-[140px] hover:text-[#72e2ae] hover:cursor-pointer w-[20px]">
+                            123456789</p>
+                        <p
+                            class="text-[#bfc1ce] text-lg relative top-[-125px] left-[140px] hover:text-[#72e2ae] hover:cursor-pointer w-[20px]">
+                            987654321</p>
+                    </div>
+                </div>
+                <div class="box3 border border-[#30394a] rounded-md bg-[#1c2436] w-[90%] h-[130px] m-auto mb-9">
+                    <div
+                        class="border border-none bg-[#263843] h-[75px] w-[75px] flex flex-row justify-center items-center rounded-[50%] m-[25px]">
+                        <img src="images/message.svg" alt="Mail" class="w-7">
+                    </div>
+                    <div class="text">
+                        <p class="text-white text-xl font-semibold my-7 relative top-[-100px] left-[140px]">Contact on
+                            Mail</p>
+                        <p
+                            class="text-[#bfc1ce] text-lg mt-[-10px] relative top-[-110px] left-[140px] hover:text-[#72e2ae] hover:cursor-pointer w-[20px]">
+                            zaidlatif30@gmail.com</p>
+                    </div>
+                </div>
+                <div class="box4 border border-[#30394a] rounded-md bg-[#1c2436] w-[90%] h-[130px] m-auto">
+                    <div
+                        class="border border-none bg-[#263843] h-[75px] w-[75px] flex flex-row justify-center items-center rounded-[50%] m-[25px]">
+                        <img src="images/location.svg" alt="Address" class="w-7">
+                    </div>
+                    <div class="text">
+                        <p class="text-white text-xl font-semibold my-7 relative top-[-100px] left-[140px]">Contact
+                            Address</p>
+                        <p
+                            class="text-[#bfc1ce] text-lg mt-[-10px] relative top-[-110px] left-[140px] hover:text-[#72e2ae] hover:cursor-pointer w-[130px]">
+                            Lahore, Pakistan</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right border border-[#30394a] rounded-md bg-[#1c2436] w-1/2 mx-7 h-[650px]">
+                <div class="box1 h-[45px] w-[90%] m-auto my-2 pt-4"><span>Name</span></div>
+                <div class="box2 h-[45px] w-[90%] m-auto my-2"><input id="name" type="text" placeholder="Enter Your Name..." value=""
+                        class="input input-bordered w-[100%] max-w-lg font-semibold bg-[#182032]" /></div>
+                <div class="box3 h-[45px] w-[90%] m-auto my-2 pt-4"><span>Email</span></div>
+                <div class="box4 h-[45px] w-[90%] m-auto my-2"><input type="text" placeholder="Enter Your Email..." id="email" value=""
+                        class="input input-bordered w-full max-w-lg font-semibold bg-[#182032]" /></div>
+                <div class="box5 h-[45px] w-[90%] m-auto my-2 pt-4"><span>Subject</span></div>
+                <div class="box6  h-[45px] w-[90%] m-auto my-2"><input type="text" placeholder="Enter Subject..." id="subject" value=""
+                        class="input input-bordered w-full max-w-lg font-semibold bg-[#182032]" /></div>
+                <div class="box7 h-[45px] w-[90%] m-auto my-2 pt-4"><span>Message</span></div>
+                <div class="box8 h-[45px] w-[90%] m-auto my-2"><textarea id="message" value=""
+                        class="textarea textarea-bordered font-semibold text-base bg-[#182032] w-[100%] h-[170px] max-w-lg"
+                        placeholder="Enter Your Message..."></textarea></div>
+                <button id="Send-btn" class="btn text-[#182032] bg-[#72e2ae] hover:bg-white mt-[140px] ml-[30px]">Send Message</button>
+            </div>
+        </div>
+    </div>
+    <footer
+        class="footer footer-center bg-[#182032] p-4 border-t border-t-[#30394a] flex justify-center text-[#bfc1ce] font-semibold">
+        <span>© 2024 - All right reserved by</span><span id="Zaid-btnn2"
+            class="hover:text-[#72e2ae] text-white ml-[-12px]">Muhammad
+            Zaid</span>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
