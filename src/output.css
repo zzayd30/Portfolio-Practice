@@ -2601,10 +2601,6 @@ html {
   transition-duration: 150ms;
 }
 
-.duration-150 {
-  transition-duration: 150ms;
-}
-
 @media not all and (min-width: 768px) {
   .max-md\:timeline-compact,.max-md\:timeline-compact
 .timeline-horizontal {
